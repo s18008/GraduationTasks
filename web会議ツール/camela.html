@@ -8,6 +8,9 @@
       <input type="text" placeholder="ルーム名" id="room-id"><button id="room-button" onclick="startVideo()">参加</button>
 	      <br />
 	        <video id="local_video" autoplay style="width: 320px; height: 240px; border: 1px solid black;"></video><p id="kaku">NG</p>
+          <pre  id="chat"></pre>
+          <input type="text" id="chat-text"><button id="chat-button" onclick="chatroom()">送信</button>
+          <div id="stream-add"></div>
           <script type="text/javascript" src="camela.js"></script>
   </body>
 </html>
