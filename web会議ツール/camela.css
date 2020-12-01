@@ -1,0 +1,56 @@
+.area {
+  width: 200px;
+  height: 96%;
+  padding: 10px; margin-bottom: 10px; border: 1px solid #333333;
+  position:absolute;
+  top:0;
+  right: 0;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.videoBox{
+}
+
+.tab_class {
+  width: 50%;
+  height: 50px;
+  background-color: darkgrey;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  float: left;
+  order: -1;
+}
+
+pre {
+  overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.chatBox{
+  position: absolute;
+bottom: 0;
+}
+
+input[name="tab_name"] {
+  display: none;
+}
+
+input:checked + .tab_class {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.content_class {
+  display: none;
+  width: 100%;
+  position: relative;
+}
+
+input:checked + .tab_class + .content_class {
+  display: block;
+}

@@ -37,15 +37,12 @@ localStream = stream;
       const data = ['name',userName,peer.id];
       room.send(data);
       chat.textContent += `ルーム　${roomName} に参加しました\n`;
-      date = ['chat',"1"];
-      room.send(date);
     })
 
     room.on('peerJoin',function(id){
      setTimeout(function(){
        const data = [id,userName,peer.id,entrytiem,userData,userId];
        room.send(data);
-       chat.textContent += `2\n`;
      },300);
     })
 
@@ -81,7 +78,7 @@ localStream = stream;
    room.on('data',function(data){
      const time = new Date();
      if(data.data[0] == 'chat'){
-     chat.textContent += `${data.data[1]}\n`;
+     chat.textContent += `${data.data[2]}:${data.data[1]}\n`;
    }else if(data.data[0] == `name`){
      if(!userData[`${data.data[1]}`]){
      userData[`${data.data[1]}`] = data.data[2];
@@ -122,7 +119,7 @@ function chatroom(){
        return;
      }
      const chatword = document.getElementById('chat-text');
-     const date = ['chat',chatword.value];
+     const date = ['chat',chatword.value,userName];
      room.send(date);
      chat.textContent += `${chatword.value}\n`;
      chatword.value = '';
