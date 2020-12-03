@@ -1,3 +1,11 @@
+a{
+  text-decoration: none
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
+
 .area {
   width: 200px;
   height: 96%;
@@ -20,9 +28,15 @@
   line-height: 50px;
   font-size: 15px;
   text-align: center;
-  display: block;
+  display:block;
   float: left;
   order: -1;
+}
+
+#participant{
+  padding: 10px; margin-bottom: 10px; border: 1px solid #333333;
+  height: 50%;
+  position:top;
 }
 
 pre {
@@ -48,8 +62,10 @@ input:checked + .tab_class {
 .content_class {
   display: none;
   width: 100%;
+  height: 85%;
   position: relative;
 }
+
 
 input:checked + .tab_class + .content_class {
   display: block;
