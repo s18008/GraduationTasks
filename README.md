@@ -5,7 +5,10 @@
   s18005 木村瑠真
 
 内容  
- skywayを利用したweb会議ツールの作成
+web会議ツールの作成
+
+meetリンク
+https://meet.google.com/lookup/agz6pvfuto
 
 スケジュール
 
