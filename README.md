@@ -15,10 +15,11 @@ https://github.com/s18008/GraduationTasks/tree/master/%E3%82%B9%E3%82%B1%E3%82%B
   
 企画書リンク
 
-https://github.com/s18008/GraduationTasks/tree/master/%E4%BC%81%E7%94%BB%E6%9B%B8　
+https://github.com/s18008/GraduationTasks/tree/master/%E4%BC%81%E7%94%BB%E6%9B%B8
 
 システムソース　
-https://github.com/s18008/GraduationTasks/tree/master/web%E4%BC%9A%E8%AD%B0%E3%83%84%E3%83%BC%E3%83%AB　
+
+https://github.com/s18008/GraduationTasks/tree/master/web%E4%BC%9A%E8%AD%B0%E3%83%84%E3%83%BC%E3%83%AB
 
 スケジュール
 
