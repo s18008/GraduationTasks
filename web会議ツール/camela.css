@@ -6,6 +6,10 @@ a:link, a:visited, a:hover, a:active {
   color: black;
 }
 
+.participant_name{
+  display: block;
+}
+
 .area {
   width: 200px;
   height: 96%;

@@ -52,7 +52,7 @@ localStream = stream;
      setTimeout(function(){
        const data = [id,userName,peer.id,entrytiem,userData,userId];
        room.send(data);
-     },300);
+     },700);
     })
 
     room.on('stream', function(stream){//他のユーザーからstreamが送られてきたときに実行される処理
@@ -73,8 +73,9 @@ localStream = stream;
         for(const name in userData){
           const check = document.getElementById(`${name}`)
           if(!userData[name] && !check){
-            const exituser = document.createElement('p');
+            const exituser = document.createElement('a');
             exituser.setAttribute(`id`,`${peerName}`);
+            exituser.setAttribute(`href`,`#`);
             exituser.setAttribute(`class`,`participant_name`);
             exituser.setAttribute('onclick', `Time(this)`);
             exituser.innerText = name;
@@ -83,17 +84,18 @@ localStream = stream;
           }
         }
         if(!check){
-        const newuser = document.createElement('p');
-        newuser.setAttribute(`id`,`${peerName}`);
-        newuser.setAttribute(`class`,`participant_name`);
-        newuser.setAttribute('onclick', `Time(this)`);
-        newuser.innerText = peerName;
-        participant.append(newuser);
+          const newuser = document.createElement('a');
+          newuser.setAttribute(`id`,`${peerName}`);
+          newuser.setAttribute(`href`,`#`);
+          newuser.setAttribute(`class`,`participant_name`);
+          newuser.setAttribute('onclick', `Time(this)`);
+          newuser.innerText = peerName;
+          participant.append(newuser);
       }else{
         check.style.backgroundColor = "white";
       }
         kaku.innerText = Object.keys(entrytiem);
-      },500);
+      },1000);
     });
 
     room.on('peerLeave',function(peerid){//他のユーザーがルームから退出したときに実行される処理
@@ -114,20 +116,22 @@ localStream = stream;
    room.on('data',function(data){//他のユーザーからデータが送られてきた時に実行される処理
      const time = new Date();
      if(data.data[0] == 'chat'){//チャットデータが送られてきた時
+       if(data.data[3] == `chat-button`){
      　chat.textContent += `${data.data[2]}:${data.data[1]}\n`;
-   }else if(data.data[0] == `name`){//他のユーザーのデータが送られてきた時
-     if(!(data.data[1] in userData)){//新規で参加してきたユーザー
-     　userData[`${data.data[1]}`] = data.data[2];
-     　userId[`${data.data[2]}`] = data.data[1];
-     　entrytiem[`${data.data[1]}`] = [`入室　${time.getHours()}時${time.getMinutes()}分`];
-     　chat.textContent += `${data.data[1]} が参加しました\n`;
-   　}else{//前に参加していたユーザー
+   }else{chat.textContent += `匿名:${data.data[1]}\n`;}
+     }else if(data.data[0] == `name`){//他のユーザーのデータが送られてきた時
+       if(!(data.data[1] in userData)){//新規で参加してきたユーザー
+       　userData[`${data.data[1]}`] = data.data[2];
+       　userId[`${data.data[2]}`] = data.data[1];
+       　entrytiem[`${data.data[1]}`] = [`入室　${time.getHours()}時${time.getMinutes()}分`];
+     　  chat.textContent += `${data.data[1]} が参加しました\n`;
+     　}else{//前に参加していたユーザー
      　　userData[`${data.data[1]}`] = data.data[2];
      　　userId[`${data.data[2]}`] = data.data[1];
      　　entrytiem[`${data.data[1]}`].push(`入室　${time.getHours()}時${time.getMinutes()}分`);
      　　chat.textContent += `${data.data[1]} が再参加しました\n`;
      　　}
-   }else if(data.data[0] == peer.id){//個別で送られてきたデータ
+      }else if(data.data[0] == peer.id){//個別で送られてきたデータ
      entrytiem = Object.assign({},data.data[3]);
      userData = Object.assign({},data.data[4]);
      userId = Object.assign({},data.data[5]);
@@ -148,12 +152,12 @@ function test(){
   remoteVideo.play().catch(console.error);
 }
 
-function chatroom(){//チャットに書き込むための処理
+function chatroom(i){//チャットに書き込むための処理
      if(!room){
        return;
      }
      const chatword = document.getElementById('chat-text');
-     const date = ['chat',chatword.value,userName];
+     const date = ['chat',chatword.value,userName,i.id];
      room.send(date);
      chat.textContent += `${chatword.value}\n`;
      chatword.value = '';
@@ -172,6 +176,8 @@ function clicktest(stream){
 function Time(name){
   const entry = entrytiem[`${name.id}`];
   const entrytext = document.getElementById("entrytext");
-  entrytext.innerText = `${entry}\n`;
-
+  entrytext.innerText = "";
+  for(const i of entry){
+    entrytext.innerText += `${i}\n`;
+    }
 }
