@@ -66,7 +66,6 @@ localStream = stream;
         newVideo.playsInline = true;
         newVideo.setAttribute('id', `${stream.peerId}`);
         newVideo.setAttribute('data-name',`${peerName}`);
-        newVideo.setAttribute('onclick', `clicktest(this)`);
         newVideo.setAttribute('style',"width: 320px; height: 240px; border: 1px solid black;");
         addVideo.append(newVideo);
         newVideo.play().catch(console.error);
@@ -94,7 +93,6 @@ localStream = stream;
       }else{
         check.style.backgroundColor = "white";
       }
-        kaku.innerText = Object.keys(entrytiem);
       },1000);
     });
 
@@ -110,7 +108,6 @@ localStream = stream;
       exit.style.backgroundColor = "silver";
     　remoteVideo.srcObject = null;
     　remoteVideo.remove();
-    　kaku.innerText = entrytiem[`${leaveName}`][1];
   });
 
    room.on('data',function(data){//他のユーザーからデータが送られてきた時に実行される処理
@@ -142,12 +139,10 @@ localStream = stream;
 
 function test(){
   if(!peerStream){
-    kaku.innerText = `none`
     return;
   }
   const remoteVideo = document.getElementById(`${peerId}`);
   remoteVideo.srcObject = null;
-  kaku.innerText = remoteVideo.srcObject;
   remoteVideo.srcObject = peerStream;
   remoteVideo.play().catch(console.error);
 }
@@ -164,14 +159,9 @@ function chatroom(i){//チャットに書き込むための処理
 }
 
       peer.on('open', function(){
-        kaku.innerText = `${localVideo.id}`;
+
 });
 
-
-function clicktest(stream){
-  const entry = entrytiem[`${stream.dataset.name}`]
-  kaku.innerText = entry;
-}
 
 function Time(name){
   const entry = entrytiem[`${name.id}`];
