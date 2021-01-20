@@ -147,6 +147,32 @@ function test(){
   remoteVideo.play().catch(console.error);
 }
 
+function rep_stream(){
+  const revers = localStream.getVideoTracks()[0].enabled;
+  if(revers){
+    localStream.getVideoTracks()[0].enabled = !revers;
+    const replace = document.getElementById('rep_stream_on');
+    replace.setAttribute(`id`,`rep_stream_off`);
+  }else{
+  localStream.getVideoTracks()[0].enabled = !revers;
+  const replace = document.getElementById('rep_stream_off');
+  replace.setAttribute(`id`,`rep_stream_on`)
+}
+}
+
+function rep_audio(){
+  const revers = localStream.getAudioTracks()[0].enabled;
+  if(revers){
+    localStream.getAudioTracks()[0].enabled = !revers;
+    const replace = document.getElementById('rep_audio_on');
+    replace.setAttribute(`id`,`rep_audio_off`);
+  }else{
+  localStream.getAudioTracks()[0].enabled = !revers;
+  const replace = document.getElementById('rep_audio_off');
+  replace.setAttribute(`id`,`rep_audio_on`)
+}
+}
+
 function chatroom(i){//チャットに書き込むための処理
      if(!room){
        return;
