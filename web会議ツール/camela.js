@@ -180,7 +180,11 @@ function chatroom(i){//チャットに書き込むための処理
      const chatword = document.getElementById('chat-text');
      const date = ['chat',chatword.value,userName,i.id];
      room.send(date);
-     chat.textContent += `${chatword.value}\n`;
+     if(i.id == "chat-button"){
+     chat.textContent += `自分:${chatword.value}\n`;
+   }else{
+     chat.textContent += `自分(匿名):${chatword.value}\n`;
+   }
      chatword.value = '';
 }
 
@@ -193,6 +197,7 @@ function Time(name){
   const entry = entrytiem[`${name.id}`];
   const entrytext = document.getElementById("entrytext");
   entrytext.innerText = "";
+  entrytext.innerText += `${name.id}\n`;
   for(const i of entry){
     entrytext.innerText += `${i}\n`;
     }
