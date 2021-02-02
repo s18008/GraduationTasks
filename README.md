@@ -24,16 +24,5 @@ https://github.com/s18008/GraduationTasks/tree/master/web%E4%BC%9A%E8%AD%B0%E3%8
 ガントチャートリンク
 https://docs.google.com/spreadsheets/d/1fb2X3CTdYyKwZLuQRvkvg1cZaO5SprvsWxvul8QRfnw/edit#gid=2047611395
 
-スケジュール
 
-～8月20日　承認
 
-8月21日～8月28日　作成方法を調べる
-
-8月29日～9月28日　システム構築(ビデオ通話機能、チャット機能)、HTMLデザイン作成
-
-9月29日～10月20日　システム、HTML合わせ調整
-
-10月21日～11月28日　　機能追加(参加者の入退室記録の管理機能)
-
-11月29日～12月31日　プレゼン作成、練習
