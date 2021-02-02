@@ -1,0 +1,278 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 29 10:38:24.424516 2020] [mpm_winnt:notice] [pid 6904:tid 792] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Thu Oct 29 10:38:24.425957 2020] [mpm_winnt:notice] [pid 6904:tid 792] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Thu Oct 29 10:38:24.425957 2020] [core:notice] [pid 6904:tid 792] AH00094: Command line: 'httpd -d C:/Apache24'
+[Thu Oct 29 10:38:24.430745 2020] [mpm_winnt:notice] [pid 6904:tid 792] AH00418: Parent: Created child process 10848
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 29 10:38:25.452874 2020] [mpm_winnt:notice] [pid 10848:tid 476] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 29 10:39:33.269625 2020] [mpm_winnt:notice] [pid 6904:tid 792] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Thu Oct 29 10:40:03.271900 2020] [mpm_winnt:notice] [pid 6904:tid 792] AH00431: Parent: Forcing termination of child process 10848
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 14:08:28.042582 2020] [mpm_winnt:notice] [pid 7572:tid 760] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 16 14:08:28.043594 2020] [mpm_winnt:notice] [pid 7572:tid 760] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 14:08:28.043594 2020] [core:notice] [pid 7572:tid 760] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 14:08:28.048464 2020] [mpm_winnt:notice] [pid 7572:tid 760] AH00418: Parent: Created child process 604
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 14:08:29.145925 2020] [mpm_winnt:notice] [pid 604:tid 736] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 14:36:22.986724 2020] [mpm_winnt:notice] [pid 7572:tid 760] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 16 14:36:52.989023 2020] [mpm_winnt:notice] [pid 7572:tid 760] AH00431: Parent: Forcing termination of child process 604
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 14:37:29.810413 2020] [mpm_winnt:notice] [pid 12104:tid 724] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 16 14:37:29.812985 2020] [mpm_winnt:notice] [pid 12104:tid 724] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 14:37:29.812985 2020] [core:notice] [pid 12104:tid 724] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 14:37:29.817854 2020] [mpm_winnt:notice] [pid 12104:tid 724] AH00418: Parent: Created child process 11052
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 14:37:30.581720 2020] [mpm_winnt:notice] [pid 11052:tid 784] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 15:26:43.838857 2020] [mpm_winnt:notice] [pid 12104:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Nov 16 15:26:45.845149 2020] [mpm_winnt:notice] [pid 11052:tid 784] AH00364: Child: All worker threads have exited.
+[Mon Nov 16 15:26:45.965093 2020] [mpm_winnt:notice] [pid 12104:tid 724] AH00430: Parent: Child process 11052 exited successfully.
+[Mon Nov 16 15:45:32.620002 2020] [ssl:warn] [pid 9668:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 15:45:32.707406 2020] [ssl:warn] [pid 9668:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Nov 16 15:45:32.709914 2020] [ssl:warn] [pid 9668:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 15:45:32.709914 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Mon Nov 16 15:45:32.709914 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 15:45:32.709914 2020] [core:notice] [pid 9668:tid 756] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 15:45:32.714909 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00418: Parent: Created child process 2524
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 15:45:33.384066 2020] [ssl:warn] [pid 2524:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 15:45:33.445289 2020] [ssl:warn] [pid 2524:tid 760] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Nov 16 15:45:33.446949 2020] [ssl:warn] [pid 2524:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 15:45:33.453340 2020] [mpm_winnt:notice] [pid 2524:tid 760] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 16:02:26.026691 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00428: Parent: child process 2524 exited with status 1 -- Restarting.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:02:26.098076 2020] [ssl:warn] [pid 9668:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Nov 16 16:02:26.099800 2020] [ssl:warn] [pid 9668:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:02:26.099800 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Mon Nov 16 16:02:26.099800 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 16:02:26.099800 2020] [core:notice] [pid 9668:tid 756] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 16:02:26.103059 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00418: Parent: Created child process 11588
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+sl:warn] [pid 11588:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:02:26.735405 2020] [ssl:warn] [pid 11588:tid 552] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Nov 16 16:02:26.735405 2020] [ssl:warn] [pid 11588:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:02:26.739090 2020] [mpm_winnt:notice] [pid 11588:tid 552] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 16:02:57.511575 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 16 16:02:59.517130 2020] [mpm_winnt:notice] [pid 11588:tid 552] AH00364: Child: All worker threads have exited.
+[Mon Nov 16 16:02:59.552416 2020] [mpm_winnt:notice] [pid 9668:tid 756] AH00430: Parent: Child process 11588 exited successfully.
+[Mon Nov 16 16:04:17.828340 2020] [ssl:warn] [pid 14628:tid 748] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:04:17.900695 2020] [ssl:warn] [pid 14628:tid 748] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:04:17.903192 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Mon Nov 16 16:04:17.903192 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 16:04:17.903192 2020] [core:notice] [pid 14628:tid 748] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 16:04:17.907149 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00418: Parent: Created child process 10612
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:04:18.630316 2020] [ssl:warn] [pid 10612:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:04:18.696169 2020] [ssl:warn] [pid 10612:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:04:18.703633 2020] [mpm_winnt:notice] [pid 10612:tid 752] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 16:10:10.066431 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00428: Parent: child process 10612 exited with status 1 -- Restarting.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:10:10.183959 2020] [ssl:warn] [pid 14628:tid 748] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:10:10.183959 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Mon Nov 16 16:10:10.183959 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 16:10:10.183959 2020] [core:notice] [pid 14628:tid 748] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 16:10:10.187624 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00418: Parent: Created child process 14396
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:10:10.951035 2020] [ssl:warn] [pid 14396:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:10:11.014512 2020] [ssl:warn] [pid 14396:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:10:11.019020 2020] [mpm_winnt:notice] [pid 14396:tid 752] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 16:10:13.075297 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00428: Parent: child process 14396 exited with status 1 -- Restarting.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:10:13.182437 2020] [ssl:warn] [pid 14628:tid 748] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:10:13.182437 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Mon Nov 16 16:10:13.182437 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 16:10:13.182437 2020] [core:notice] [pid 14628:tid 748] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 16:10:13.188378 2020] [mpm_winnt:notice] [pid 14628:tid 748] AH00418: Parent: Created child process 2264
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:10:13.813581 2020] [ssl:warn] [pid 2264:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:10:13.880775 2020] [ssl:warn] [pid 2264:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:10:13.883671 2020] [mpm_winnt:notice] [pid 2264:tid 752] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 16:10:16.380307 2020] [mpm_winnt:crit] [pid 2264:tid 752] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Nov 16 16:10:16.380307 2020] [mpm_winnt:warn] [pid 2264:tid 764] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:10:16.380307 2020] [mpm_winnt:warn] [pid 2264:tid 756] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:10:16.381305 2020] [mpm_winnt:warn] [pid 2264:tid 768] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:10:16.381305 2020] [mpm_winnt:warn] [pid 2264:tid 1360] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:10:18.382408 2020] [mpm_winnt:notice] [pid 2264:tid 752] AH00364: Child: All worker threads have exited.
+[Mon Nov 16 16:16:47.137426 2020] [ssl:warn] [pid 13712:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:16:47.258704 2020] [core:warn] [pid 13712:tid 752] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 16 16:16:47.275674 2020] [ssl:warn] [pid 13712:tid 752] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:16:47.275674 2020] [mpm_winnt:notice] [pid 13712:tid 752] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Mon Nov 16 16:16:47.275674 2020] [mpm_winnt:notice] [pid 13712:tid 752] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 16:16:47.275674 2020] [core:notice] [pid 13712:tid 752] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Nov 16 16:16:47.281310 2020] [mpm_winnt:notice] [pid 13712:tid 752] AH00418: Parent: Created child process 9840
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:16:47.928709 2020] [ssl:warn] [pid 9840:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 16 16:16:47.992488 2020] [ssl:warn] [pid 9840:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 16 16:16:47.999676 2020] [mpm_winnt:notice] [pid 9840:tid 760] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 16 16:22:05.915986 2020] [mpm_winnt:crit] [pid 9840:tid 760] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Nov 16 16:22:05.916623 2020] [mpm_winnt:warn] [pid 9840:tid 1372] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:22:05.916623 2020] [mpm_winnt:warn] [pid 9840:tid 736] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:22:05.916623 2020] [mpm_winnt:warn] [pid 9840:tid 764] (OS 995)スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Nov 16 16:22:05.917141 2020] [mpm_winnt:error] [pid 9840:tid 1372] (OS 10038)ソケット以外のものに対して操作を実行しようとしました。  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Mon Nov 16 16:22:05.917141 2020] [mpm_winnt:notice] [pid 9840:tid 1372] (OS 10038)ソケット以外のものに対して操作を実行しようとしました。  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Mon Nov 16 16:22:05.918187 2020] [mpm_winnt:error] [pid 9840:tid 736] (OS 10038)ソケット以外のものに対して操作を実行しようとしました。  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Mon Nov 16 16:22:05.918187 2020] [mpm_winnt:notice] [pid 9840:tid 736] (OS 10038)ソケット以外のものに対して操作を実行しようとしました。  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Mon Nov 16 16:22:07.923263 2020] [mpm_winnt:notice] [pid 9840:tid 760] AH00364: Child: All worker threads have exited.
+[Tue Dec 01 14:01:28.455539 2020] [ssl:warn] [pid 14392:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 01 14:01:28.559388 2020] [core:warn] [pid 14392:tid 756] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 01 14:01:28.571387 2020] [ssl:warn] [pid 14392:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 01 14:01:28.572381 2020] [mpm_winnt:notice] [pid 14392:tid 756] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Tue Dec 01 14:01:28.572381 2020] [mpm_winnt:notice] [pid 14392:tid 756] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Tue Dec 01 14:01:28.572381 2020] [core:notice] [pid 14392:tid 756] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Dec 01 14:01:28.575343 2020] [mpm_winnt:notice] [pid 14392:tid 756] AH00418: Parent: Created child process 708
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+020] [ssl:warn] [pid 708:tid 808] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 01 14:01:29.583351 2020] [ssl:warn] [pid 708:tid 808] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 01 14:01:29.587339 2020] [mpm_winnt:notice] [pid 708:tid 808] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 01 14:46:16.695956 2020] [mpm_winnt:notice] [pid 14392:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 01 14:46:18.698302 2020] [mpm_winnt:notice] [pid 708:tid 808] AH00364: Child: All worker threads have exited.
+[Tue Dec 01 14:46:18.859384 2020] [mpm_winnt:notice] [pid 14392:tid 756] AH00430: Parent: Child process 708 exited successfully.
+[Wed Jan 27 14:53:17.953510 2021] [ssl:warn] [pid 11516:tid 768] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 27 14:53:18.134026 2021] [ssl:warn] [pid 11516:tid 768] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 27 14:53:18.135021 2021] [mpm_winnt:notice] [pid 11516:tid 768] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Wed Jan 27 14:53:18.135021 2021] [mpm_winnt:notice] [pid 11516:tid 768] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Wed Jan 27 14:53:18.135021 2021] [core:notice] [pid 11516:tid 768] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Wed Jan 27 14:53:18.140008 2021] [mpm_winnt:notice] [pid 11516:tid 768] AH00418: Parent: Created child process 3504
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 27 14:53:18.974570 2021] [ssl:warn] [pid 3504:tid 776] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 27 14:53:19.051568 2021] [ssl:warn] [pid 3504:tid 776] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 27 14:53:19.060547 2021] [mpm_winnt:notice] [pid 3504:tid 776] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 30 09:36:40.982480 2021] [ssl:warn] [pid 12068:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 30 09:36:41.126927 2021] [core:warn] [pid 12068:tid 784] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jan 30 09:36:41.146343 2021] [ssl:warn] [pid 12068:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 30 09:36:41.147652 2021] [mpm_winnt:notice] [pid 12068:tid 784] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Sat Jan 30 09:36:41.147652 2021] [mpm_winnt:notice] [pid 12068:tid 784] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Jan 30 09:36:41.147652 2021] [core:notice] [pid 12068:tid 784] AH00094: Command line: 'httpd -d C:/Apache24'
+[Sat Jan 30 09:36:41.154940 2021] [mpm_winnt:notice] [pid 12068:tid 784] AH00418: Parent: Created child process 10564
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+sl:warn] [pid 10564:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 30 09:36:42.573095 2021] [ssl:warn] [pid 10564:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 30 09:36:42.604086 2021] [mpm_winnt:notice] [pid 10564:tid 696] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 30 09:52:00.937927 2021] [mpm_winnt:notice] [pid 12068:tid 784] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jan 30 09:52:02.939489 2021] [mpm_winnt:notice] [pid 10564:tid 696] AH00364: Child: All worker threads have exited.
+[Sat Jan 30 09:52:03.132630 2021] [mpm_winnt:notice] [pid 12068:tid 784] AH00430: Parent: Child process 10564 exited successfully.
+[Sat Jan 30 09:52:47.441571 2021] [ssl:warn] [pid 9152:tid 764] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 30 09:52:47.566327 2021] [ssl:warn] [pid 9152:tid 764] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 30 09:52:47.574723 2021] [mpm_winnt:notice] [pid 9152:tid 764] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Sat Jan 30 09:52:47.574723 2021] [mpm_winnt:notice] [pid 9152:tid 764] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Jan 30 09:52:47.574723 2021] [core:notice] [pid 9152:tid 764] AH00094: Command line: 'httpd -d C:/Apache24'
+[Sat Jan 30 09:52:47.586344 2021] [mpm_winnt:notice] [pid 9152:tid 764] AH00418: Parent: Created child process 9240
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 30 09:52:48.292548 2021] [ssl:warn] [pid 9240:tid 780] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 30 09:52:48.355156 2021] [ssl:warn] [pid 9240:tid 780] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 30 09:52:48.363067 2021] [mpm_winnt:notice] [pid 9240:tid 780] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 31 12:25:03.133767 2021] [ssl:warn] [pid 17068:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 31 12:25:03.313544 2021] [core:warn] [pid 17068:tid 760] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 31 12:25:03.332712 2021] [ssl:warn] [pid 17068:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 31 12:25:03.332712 2021] [mpm_winnt:notice] [pid 17068:tid 760] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Sun Jan 31 12:25:03.332712 2021] [mpm_winnt:notice] [pid 17068:tid 760] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sun Jan 31 12:25:03.332712 2021] [core:notice] [pid 17068:tid 760] AH00094: Command line: 'httpd -d C:/Apache24'
+[Sun Jan 31 12:25:03.340369 2021] [mpm_winnt:notice] [pid 17068:tid 760] AH00418: Parent: Created child process 13004
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+sl:warn] [pid 13004:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 31 12:25:04.729938 2021] [ssl:warn] [pid 13004:tid 756] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 31 12:25:04.737724 2021] [mpm_winnt:notice] [pid 13004:tid 756] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 02 10:27:39.658683 2021] [mpm_winnt:notice] [pid 17068:tid 760] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 02 10:28:08.462257 2021] [mpm_winnt:notice] [pid 13004:tid 756] AH00364: Child: All worker threads have exited.
+[Tue Feb 02 10:28:26.393222 2021] [ssl:warn] [pid 5580:tid 768] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 02 10:28:26.471376 2021] [core:warn] [pid 5580:tid 768] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 02 10:28:26.487001 2021] [ssl:warn] [pid 5580:tid 768] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 02 10:28:26.487001 2021] [mpm_winnt:notice] [pid 5580:tid 768] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Tue Feb 02 10:28:26.487001 2021] [mpm_winnt:notice] [pid 5580:tid 768] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Tue Feb 02 10:28:26.487001 2021] [core:notice] [pid 5580:tid 768] AH00094: Command line: 'httpd -d C:/Apache24'
+[Tue Feb 02 10:28:26.487001 2021] [mpm_winnt:notice] [pid 5580:tid 768] AH00418: Parent: Created child process 13620
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+021] [ssl:warn] [pid 13620:tid 776] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 02 10:28:27.295671 2021] [ssl:warn] [pid 13620:tid 776] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 02 10:28:27.299660 2021] [mpm_winnt:notice] [pid 13620:tid 776] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 02 10:29:22.108188 2021] [mpm_winnt:notice] [pid 5580:tid 768] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 02 10:29:37.220772 2021] [mpm_winnt:notice] [pid 13620:tid 776] AH00364: Child: All worker threads have exited.
+[Tue Feb 02 10:29:37.264656 2021] [mpm_winnt:notice] [pid 5580:tid 768] AH00430: Parent: Child process 13620 exited successfully.
+[Tue Feb 02 10:34:51.824340 2021] [ssl:warn] [pid 11548:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 02 10:34:52.179389 2021] [ssl:warn] [pid 11548:tid 760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 02 10:34:52.180386 2021] [mpm_winnt:notice] [pid 11548:tid 760] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Tue Feb 02 10:34:52.180386 2021] [mpm_winnt:notice] [pid 11548:tid 760] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Tue Feb 02 10:34:52.180386 2021] [core:notice] [pid 11548:tid 760] AH00094: Command line: 'httpd -d C:/Apache24'
+[Tue Feb 02 10:34:52.184375 2021] [mpm_winnt:notice] [pid 11548:tid 760] AH00418: Parent: Created child process 2956
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+021] [ssl:warn] [pid 2956:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 02 10:34:53.283435 2021] [ssl:warn] [pid 2956:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 02 10:34:53.288421 2021] [mpm_winnt:notice] [pid 2956:tid 784] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 02 10:37:07.864363 2021] [mpm_winnt:notice] [pid 11548:tid 760] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 02 10:37:37.876761 2021] [mpm_winnt:notice] [pid 11548:tid 760] AH00431: Parent: Forcing termination of child process 2956
+[Tue Feb 02 10:38:38.307467 2021] [ssl:warn] [pid 11548:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 02 10:38:38.401963 2021] [ssl:warn] [pid 11548:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 02 10:38:38.402963 2021] [mpm_winnt:notice] [pid 11548:tid 576] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h configured -- resuming normal operations
+[Tue Feb 02 10:38:38.402963 2021] [mpm_winnt:notice] [pid 11548:tid 576] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Tue Feb 02 10:38:38.402963 2021] [core:notice] [pid 11548:tid 576] AH00094: Command line: 'httpd -d C:/Apache24'
+[Tue Feb 02 10:38:38.405951 2021] [mpm_winnt:notice] [pid 11548:tid 576] AH00418: Parent: Created child process 8660
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+021] [ssl:warn] [pid 8660:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5981:24fb:9dda:f5a4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 02 10:38:39.346170 2021] [ssl:warn] [pid 8660:tid 784] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 02 10:38:39.351156 2021] [mpm_winnt:notice] [pid 8660:tid 784] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 02 10:39:11.437895 2021] [mpm_winnt:notice] [pid 11548:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 02 10:39:41.438641 2021] [mpm_winnt:notice] [pid 11548:tid 576] AH00431: Parent: Forcing termination of child process 8660
